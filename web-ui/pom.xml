@@ -70,7 +70,8 @@
                             <type>war</type>
                             <location>${deployer.path}</location>
                             <properties>
-                                <context>${project.artifactId}</context>
+                                <!--<context>${project.artifactId}</context>-->
+                                <context>${appName}</context>
                             </properties>
                         </deployable>
                     </deployables>
